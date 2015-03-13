@@ -171,10 +171,41 @@ body {
   
 }
 
+.how-container {
+  background-color: white;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: 0 -50px !important;
+  background-attachment: fixed;  
+  
+}
+
+.how-container h2 {
+  color: #333;
+  padding-bottom: 20px;
+}
+
+.how-container p {
+  color: #333;
+}
+
 .what-container h2 {
   padding-top: 50px;
   
 }
 .what-container p {
   padding-top: 50px;
+}
+.how-container h2 {
+  padding-top: 50px;
+}
+.stay-in-touch-container h2 {
+  padding-top: 50px;
+}
+.spread-the-word-container h2 {
+  padding-top: 50px;
+}
+.list-group-item {
+  background-color: #333;
+  border-style: none;
 }
