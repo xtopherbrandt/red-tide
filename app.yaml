@@ -7,23 +7,23 @@ threadsafe: true
 handlers:
 - url: /stylesheets
   static_dir: stylesheets
-  secure: always
+  secure: optional
 
 - url: /bootstrap/*
   static_dir: bootstrap
-  secure: always
+  secure: optional
   
 - url: /js
   static_dir: js
-  secure: always
+  secure: optional
   
 - url: /images
   static_dir: images
-  secure: always
+  secure: optional
   
 - url: /.*
   script: thesmartcellar.application
-  secure: always
+  secure: optional
   
 libraries:
 - name: webapp2
