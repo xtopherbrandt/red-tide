@@ -20,11 +20,19 @@ handlers:
 - url: /images
   static_dir: images
   secure: optional
+
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+  
+- url: /robots.txt
+  static_files: robots.txt
+  upload: robots.txt
   
 - url: /.*
   script: thesmartcellar.application
   secure: optional
-  
+
 libraries:
 - name: webapp2
   version: latest
