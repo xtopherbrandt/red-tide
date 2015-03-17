@@ -171,22 +171,30 @@ body {
   
 }
 
+.how-background {
+
+  background-size: 100% !important;
+  background-repeat: no-repeat;
+  background-position: 0 0px !important;
+  background-attachment: fixed;  
+
+}
+
 .how-container {
   background-color: white;
-  background-size: cover !important;
-  background-repeat: no-repeat;
-  background-position: 0 -50px !important;
-  background-attachment: fixed;  
-  
+  opacity: 0.99;  
 }
 
 .how-container h2 {
-  color: #333;
+  color: black;
   padding-bottom: 20px;
 }
 
+.how-container h3 {
+  color: black;
+}
 .how-container p {
-  color: #333;
+  color: black;
 }
 
 .what-container h2 {
@@ -200,12 +208,18 @@ body {
   padding-top: 50px;
 }
 .stay-in-touch-container h2 {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .spread-the-word-container h2 {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .list-group-item {
   background-color: #333;
   border-style: none;
+  display: inline-block;
+}
+
+.fb-like, .fb-follow{
+  position: relative;
+  top: -5px
 }
