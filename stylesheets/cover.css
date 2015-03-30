@@ -223,3 +223,8 @@ body {
   position: relative;
   top: -5px
 }
+
+.what-container img {
+   max-width: 716px;
+   width: 90%
+}
