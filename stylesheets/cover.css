@@ -171,7 +171,7 @@ body {
   
 }
 
-.how-background {
+.how-background, .social-backgound {
 
   background-size: 100% !important;
   background-repeat: no-repeat;
@@ -207,14 +207,26 @@ body {
 .how-container h2 {
   padding-top: 50px;
 }
+
+.stay-in-touch-container {
+  color: black;
+}
+
+.spread-the-word-container {
+  color: black;
+}
+
+}
 .stay-in-touch-container h2 {
   padding-top: 10px;
 }
+
 .spread-the-word-container h2 {
   padding-top: 10px;
 }
+
 .list-group-item {
-  background-color: #333;
+  background-color: transparent;
   border-style: none;
   display: inline-block;
 }
@@ -227,4 +239,13 @@ body {
 .what-container img {
    max-width: 716px;
    width: 90%
+}
+
+
+.whats-new-container {
+  background-color: #333;
+}
+
+.whats-new-container .content {
+  text-align: left;
 }
